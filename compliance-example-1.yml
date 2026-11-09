@@ -1,0 +1,34 @@
+# API Commons — Compliance, illustrative example
+#
+# Example Weather API is fictional. These clauses are
+# illustrative and are not the terms of any real company.
+
+compliance: 0.1.0
+provider: Example Weather API
+aid: example-weather-api
+url: https://trust.weather.example.com/
+source_date: '2026-11-09'
+x-apis-io-derivation:
+  synthetic: false
+  method: harvested
+  read: '2026-11-09'
+  tool: engine/business/harvest-business.py
+  model: claude-haiku-4-5
+trust_center:
+  url: https://trust.weather.example.com/
+attestations:
+- framework: SOC2
+  type: Type II
+  scope: Forecast API and developer portal
+  period: 12 months
+  issuer: An independent third-party auditor
+  report_access: nda
+  text: Example Weather API has completed a SOC 2 Type II audit. The report is available under
+    NDA.
+- framework: ISO27001
+  type: certified
+  scope: null
+  period: null
+  issuer: null
+  report_access: on_request
+  text: We are ISO/IEC 27001 certified. Certificates are available on request.
