@@ -17,7 +17,7 @@ consumer can compare providers on the terms rather than on the marketing.
 
 - **[compliance-json-schema.yml](compliance-json-schema.yml)** — the JSON Schema (2020-12).
 - **[compliance-example-1.yml](compliance-example-1.yml)** — a standalone document, as written to `all/<slug>/compliance/<slug>-compliance.yml`.
-- **[compliance-example-2.yml](compliance-example-2.yml)** — the same document inside the `Compliance` apis.yml property envelope.
+- **[compliance-example-2.yml](compliance-example-2.yml)** — the same document inside the `Attestations` apis.yml property envelope.
 - **[validate.py](validate.py)** — validates any document against the schema.
 
 Both examples describe **Example Weather API**, a fictional provider. The clauses are illustrative and are

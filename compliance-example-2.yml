@@ -1,10 +1,10 @@
 # API Commons — Compliance as an apis.yml property, illustrative example
 #
-# The same document as compliance-example-1.yml inside the Compliance property envelope.
+# The same document as compliance-example-1.yml inside the Attestations property envelope.
 # `url` points at the artifact path, the way sla/ is pointed at today.
 
 - name: Compliance
-  type: Compliance
+  type: Attestations
   description: The compliance of the Example Weather API, harvested from its own page.
   url: compliance/example-weather-api-compliance.yml
   source_date: '2026-11-09'
